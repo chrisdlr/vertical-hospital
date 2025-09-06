@@ -7,7 +7,7 @@
         <field name="report_type">qweb-pdf</field>
         <field name="report_name">vertical_hospital.res_patient_raw</field>
         <field name="report_file">vertical_hospital.res_patient_raw</field>
-        <field name="print_report_name">'Patients report</field>
+        <field name="print_report_name">Patients report</field>
         <field name="binding_model_id" ref="vertical_hospital.model_res_patient"/>
         <field name="binding_type">report</field>
     </record>

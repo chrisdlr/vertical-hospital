@@ -1,0 +1,444 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vertical_hospital
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-06 16:44+0000\n"
+"PO-Revision-Date: 2025-09-06 16:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: vertical_hospital
+#: model:ir.actions.report,print_report_name:vertical_hospital.action_report_res_patient_raw
+msgid "Patients report"
+msgstr "Informe de pacientes"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.res_config_settings_view_form
+msgid "/patient/consultation/"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model,name:vertical_hospital.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: vertical_hospital
+#: model:ir.ui.menu,name:vertical_hospital.menu_configuration
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: vertical_hospital
+#: model_terms:ir.actions.act_window,help:vertical_hospital.action_res_patient
+msgid "Create a Patient in your address book"
+msgstr "Cree un paciente en su libreta de direcciones"
+
+#. module: vertical_hospital
+#: model_terms:ir.actions.act_window,help:vertical_hospital.action_treatments
+msgid "Create a new Treatment"
+msgstr "Cree un nuevo tratamiento"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__create_uid
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__create_uid
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__create_date
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__create_date
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__dni
+msgid "DNI"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__medical_discharge_date
+msgid "Date of Medical Discharge"
+msgstr "Fecha de alta médica"
+
+#. module: vertical_hospital
+#: model:ir.model.fields.selection,name:vertical_hospital.selection__res_patient__state__discharged
+msgid "Discharged"
+msgstr "Alta"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__display_name
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__display_name
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields.selection,name:vertical_hospital.selection__res_patient__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.res_config_settings_view_form
+msgid "EndPoint configuration"
+msgstr "Configuración del endpoint"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_config_settings__vertical_hospital_endpoint_url
+msgid "Endpoint URL"
+msgstr "URL del endpoint"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__rec_name
+msgid "Full Name"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__id
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__id
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__id
+msgid "ID"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__write_uid
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__write_uid
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__write_date
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__write_date
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__write_date
+msgid "Last Updated on"
+msgstr "Fecha de actualización"
+
+#. module: vertical_hospital
+#: model:ir.model.fields.selection,name:vertical_hospital.selection__res_patient__state__leave
+msgid "Leave"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__medical_discharge_date
+msgid "Medical Discharge Date"
+msgstr "Fecha de alta médica"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: vertical_hospital
+#. odoo-python
+#: code:addons/vertical_hospital/models/res_patient.py:0
+msgid "New"
+msgstr "Nuevo"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: vertical_hospital
+#: model_terms:ir.actions.act_window,help:vertical_hospital.action_res_patient
+msgid "Odoo helps you track all activities related to your patients."
+msgstr "Odoo le ayuda a realizar un seguimiento de todas las actividades relacionadas con sus pacientes."
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__patient_id
+msgid "Patient"
+msgstr "Paciente"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.report_patient_raw_document
+msgid "Patient DNI"
+msgstr "DNI del paciente"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.report_patient_raw_document
+msgid "Patient List Report"
+msgstr "Informe de lista de pacientes"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__name
+msgid "Patient Name"
+msgstr "Nombre del paciente"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__patient_sequence
+msgid "Patient Sequence"
+msgstr "Secuencia"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.report_patient_raw_document
+msgid "Patient State"
+msgstr "Estado del paciente"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.res_patient_form_view
+msgid "Patient info"
+msgstr "Información del paciente"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.report_patient_raw_document
+msgid "Patient name"
+msgstr "Nombre del paciente"
+
+#. module: vertical_hospital
+#: model:ir.actions.report,name:vertical_hospital.action_report_res_patient_raw
+msgid "Patient report"
+msgstr "Reporte de pacientes"
+
+#. module: vertical_hospital
+#: model:ir.actions.act_window,name:vertical_hospital.action_res_patient
+#: model:ir.ui.menu,name:vertical_hospital.menu_res_patient
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.res_patient_tree_view
+msgid "Patients"
+msgstr "Pacientes"
+
+#. module: vertical_hospital
+#: model:ir.model,name:vertical_hospital.model_res_patient
+msgid "Res Patient Record"
+msgstr "Registro de paciente"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.report_patient_raw_document
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.res_config_settings_view_form
+msgid "Set the endpoint URL for the Vertical Hospital API"
+msgstr "Establezca la URL del endpoint para la API de Vertical Hospital"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__state
+msgid "State"
+msgstr "Estado"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__state
+msgid "State of the patient record"
+msgstr "Estado del registro del paciente"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__surname
+msgid "Surname"
+msgstr "Apellido"
+
+#. module: vertical_hospital
+#. odoo-python
+#: code:addons/vertical_hospital/models/treatment.py:0
+msgid "The treatment code cannot contain the sequence '026'."
+msgstr "El código de tratamiento no puede contener la secuencia '026'."
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__treating_doctor
+msgid "Treating Doctor"
+msgstr "Médico tratante"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__treatment_id
+msgid "Treatment"
+msgstr "Tratamiento"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__code
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__treatment_code
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.treatment_form_view
+msgid "Treatment Code"
+msgstr "Código de tratamiento"
+
+#. module: vertical_hospital
+#: model:ir.model,name:vertical_hospital.model_treatment_lines
+#: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__treatment_line_ids
+msgid "Treatment Lines"
+msgstr "Líneas de tratamiento"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment__name
+#: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__treatment_name
+msgid "Treatment Name"
+msgstr "Nombre del tratamiento"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.treatment_form_view
+msgid "Treatment info"
+msgstr "Información del tratamiento"
+
+#. module: vertical_hospital
+#: model:ir.model,name:vertical_hospital.model_treatment
+msgid "Treatment record"
+msgstr "Registro de tratamiento"
+
+#. module: vertical_hospital
+#: model:ir.actions.act_window,name:vertical_hospital.action_treatments
+#: model:ir.ui.menu,name:vertical_hospital.menu_treatment
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.res_patient_form_view
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.treatment_tree_view
+msgid "Treatments"
+msgstr "Tratamientos"
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: vertical_hospital
+#: model:ir.model.fields,help:vertical_hospital.field_res_patient__patient_sequence
+msgid "Unique identifier for the patient record"
+msgstr "Identificador único para el registro del paciente"
+
+#. module: vertical_hospital
+#: model:ir.ui.menu,name:vertical_hospital.menu_vertical_hospital_root
+msgid "Vertical Hospital"
+msgstr "Vertical Hospital"
+
+#. module: vertical_hospital
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.res_config_settings_view_form
+msgid "Vertical Hospital Endpoint URL"
+msgstr "URL del endpoint de Vertical Hospital"
+
+#. module: vertical_hospital
+#: model:ir.actions.act_window,name:vertical_hospital.action_vertical_hospital_configuration
+#: model_terms:ir.ui.view,arch_db:vertical_hospital.res_config_settings_view_form
+msgid "Vertical Hospital Settings"
+msgstr "Ajustes de Vertical Hospital"
