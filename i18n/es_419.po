@@ -6,19 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-06 16:44+0000\n"
-"PO-Revision-Date: 2025-09-06 16:44+0000\n"
+"POT-Creation-Date: 2025-09-06 16:59+0000\n"
+"PO-Revision-Date: 2025-09-06 16:59+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-
-#. module: vertical_hospital
-#: model:ir.actions.report,print_report_name:vertical_hospital.action_report_res_patient_raw
-msgid "Patients report"
-msgstr "Informe de pacientes"
 
 #. module: vertical_hospital
 #: model_terms:ir.ui.view,arch_db:vertical_hospital.res_config_settings_view_form
@@ -93,6 +88,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:vertical_hospital.field_res_patient__dni
 msgid "DNI"
 msgstr ""
+
+#. module: vertical_hospital
+#. odoo-python
+#: code:addons/vertical_hospital/models/res_patient.py:0
+msgid "DNI must contain only numbers."
+msgstr "El DNI debe contener solo números."
 
 #. module: vertical_hospital
 #: model:ir.model.fields,help:vertical_hospital.field_res_patient__medical_discharge_date
@@ -266,7 +267,9 @@ msgstr ""
 #. module: vertical_hospital
 #: model_terms:ir.actions.act_window,help:vertical_hospital.action_res_patient
 msgid "Odoo helps you track all activities related to your patients."
-msgstr "Odoo le ayuda a realizar un seguimiento de todas las actividades relacionadas con sus pacientes."
+msgstr ""
+"Odoo le ayuda a realizar un seguimiento de todas las actividades "
+"relacionadas con sus pacientes."
 
 #. module: vertical_hospital
 #: model:ir.model.fields,field_description:vertical_hospital.field_treatment_lines__patient_id
@@ -319,6 +322,11 @@ msgstr "Reporte de pacientes"
 #: model_terms:ir.ui.view,arch_db:vertical_hospital.res_patient_tree_view
 msgid "Patients"
 msgstr "Pacientes"
+
+#. module: vertical_hospital
+#: model:ir.actions.report,print_report_name:vertical_hospital.action_report_res_patient_raw
+msgid "Patients report"
+msgstr "Informe de pacientes"
 
 #. module: vertical_hospital
 #: model:ir.model,name:vertical_hospital.model_res_patient
@@ -430,7 +438,7 @@ msgstr "Identificador único para el registro del paciente"
 #. module: vertical_hospital
 #: model:ir.ui.menu,name:vertical_hospital.menu_vertical_hospital_root
 msgid "Vertical Hospital"
-msgstr "Vertical Hospital"
+msgstr ""
 
 #. module: vertical_hospital
 #: model_terms:ir.ui.view,arch_db:vertical_hospital.res_config_settings_view_form
