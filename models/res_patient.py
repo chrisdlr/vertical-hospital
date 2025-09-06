@@ -22,7 +22,7 @@ class ResPatient(models.Model):
     def _check_dni_no_letters(self):
         for record in self:
             if not record.dni.isdigit():
-                raise ValidationError("DNI must contain only numbers.")
+                raise ValidationError(_("DNI must contain only numbers."))
 
     @api.depends("name", "surname", "patient_sequence")
     def _compute_rec_name(self):
