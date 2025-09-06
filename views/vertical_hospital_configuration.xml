@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.vertical.hospital</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="0"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="Vertical Hospital Settings" string="Vertical Hospital Settings" name="vertical_hospital_general_settings"
+                     logo="/vertical_hospital/static/description/icon.png">
+
+                    <div id="vertical_hospital_url">
+                        <block title="EndPoint configuration" name="vertical_hospital_endpoint_setting_container">
+                            <setting id="endpoint_setting" help="Set the endpoint URL for the Vertical Hospital API"
+                                     name="vertical_hospital_endpoint_url">
+                                <field name="vertical_hospital_endpoint_url"
+                                       string="Vertical Hospital Endpoint URL"
+                                       placeholder="/patient/consultation/"/>
+                            </setting>
+                        </block>
+                    </div>
+
+                </app>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="action_vertical_hospital_configuration" model="ir.actions.act_window">
+        <field name="name">Vertical Hospital Settings</field>
+        <field name="path">vertical_hospital_settings</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'vertical_hospital', 'bin_size': False}</field>
+    </record>
+
+</odoo>

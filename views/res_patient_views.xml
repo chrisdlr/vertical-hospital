@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="res_patient_form_view" model="ir.ui.view">
+        <field name="name">Res patient form view</field>
+        <field name="model">res.patient</field>
+        <field name="arch" type="xml">
+
+            <form string="Patient info">
+                <header>
+                    <field name="state" widget="statusbar" options="{'clickable': '1'}"/>
+                </header>
+
+                <sheet>
+                    <div class="oe_title mb24">
+                        <h1>
+                            <field
+                                    id="patient_sequence"
+                                    options="{'line_breaks': False}"
+                                    widget="text"
+                                    class="text-break"
+                                    name="patient_sequence"
+                            />
+                        </h1>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="surname"/>
+                            <field name="dni"/>
+                        </group>
+
+                        <group>
+                            <field name="medical_discharge_date"/>
+                            <field name="write_date" readonly="1"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Treatments">
+                            <field name="treatment_line_ids">
+                                <list editable="bottom" string="Treatments">
+                                    <field name="patient_id" column_invisible="1"/>
+                                    <field name="treatment_id" options="{'no_create': True}"/>
+                                    <field name="treatment_code"/>
+                                    <field name="treatment_name"/>
+                                </list>
+                                <form>
+                                    <group>
+                                        <group>
+                                            <field name="treatment_id" options="{'no_create': True}" readonly="1"/>
+                                        </group>
+
+                                        <group>
+                                            <field name="treatment_code" readonly="1"/>
+                                            <field name="treatment_name" readonly="1"/>
+                                        </group>
+                                    </group>
+                                </form>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>
+
+        </field>
+    </record>
+
+    <record id="res_patient_tree_view" model="ir.ui.view">
+        <field name="name">Res patient tree view</field>
+        <field name="model">res.patient</field>
+        <field name="arch" type="xml">
+
+            <list string="Patients" decoration-muted="state=='draft'" decoration-warning="state=='discharged'"
+                  decoration-danger="state=='leave'">
+                <field name="patient_sequence"/>
+                <field name="name"/>
+                <field name="surname"/>
+                <field name="dni"/>
+                <field name="state"/>
+            </list>
+
+        </field>
+    </record>
+
+    <record id="action_res_patient" model="ir.actions.act_window">
+        <field name="name">Patients</field>
+        <field name="path">vertical_hospital_res_patient</field>
+        <field name="res_model">res.patient</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a Patient in your address book
+            </p>
+            <p>
+                Odoo helps you track all activities related to your patients.
+            </p>
+        </field>
+    </record>
+
+</odoo>
