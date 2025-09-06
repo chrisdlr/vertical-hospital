@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+
+        <record id="res_patient_record_sequence" model="ir.sequence">
+            <field name="name">Res patient sequence</field>
+            <field name="code">res_patient_record_sequence</field>
+            <field name="prefix">PA</field>
+            <field name="padding">7</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+    </data>
+</odoo>
